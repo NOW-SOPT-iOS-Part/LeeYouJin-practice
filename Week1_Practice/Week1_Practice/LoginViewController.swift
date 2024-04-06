@@ -11,7 +11,7 @@ import UIKit
 class LoginViewController: UIViewController {
     
     
-    // MARK: Variables
+    // MARK: UIComponent
     
     private let carrotLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 69, y: 114, width: 236, height: 44))
@@ -69,13 +69,16 @@ class LoginViewController: UIViewController {
     // MARK: viewDidLoad()
     
     override func viewDidLoad() {
-        view.backgroundColor = .white
-        
+        setUI()
         setLayout()
     }
     
     
     // MARK: functions
+    
+    private func setUI() {
+        view.backgroundColor = .white
+    }
     
     private func setLayout() {
         [

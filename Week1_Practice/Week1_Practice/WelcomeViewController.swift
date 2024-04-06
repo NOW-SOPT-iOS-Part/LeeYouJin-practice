@@ -11,7 +11,7 @@ import UIKit
 class WelcomeViewController: UIViewController {
     
     
-    // MARK: Variables
+    // MARK: UIComponent
     
     public var userID: String?
     
@@ -62,14 +62,17 @@ class WelcomeViewController: UIViewController {
     // MARK: viewDidLoad()
     
     override func viewDidLoad() {
-        view.backgroundColor = .white
-        
+        setUI()
         setLayout()
         bindID()
     }
     
     
     // MARK: Functions
+    
+    private func setUI() {
+        view.backgroundColor = .white
+    }
     
     private func setLayout() {
         [
