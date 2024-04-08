@@ -1,9 +1,10 @@
 //
 //  SceneDelegate.swift
-//  Week1_Practice
+//  Week2_Practice
 //
-//  Created by YOUJIM on 4/3/24.
+//  Created by YOUJIM on 4/9/24.
 //
+
 
 import UIKit
 
