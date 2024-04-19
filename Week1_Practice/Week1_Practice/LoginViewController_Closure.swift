@@ -100,12 +100,11 @@ class LoginViewController_Closure: UIViewController {
         welcomeVC.modalPresentationStyle = .fullScreen
         
         welcomeVC.userID = idTextField.text // welcomeVC에 현재 VC id 텍스트필드 값 주입
-        welcomeVC.completionHandler = { [weak self] id in
+        welcomeVC.completionHandler = { [weak self] id in // welcomeVC에 있는 id 값
             guard let self else { return }
-            self.idTextField.text = "\(id)에서 어떤 걸 할거얌~"
-            
+            self.idTextField.text = "\(id)에서 어떤 걸 할거얌~" //을 가지고 LoginVC의 텍스트필드 값 변경
         }
-        
         self.present(welcomeVC, animated: true) // 화면 전환
     }
 }
+
