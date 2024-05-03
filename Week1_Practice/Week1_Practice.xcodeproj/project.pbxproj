@@ -25,10 +25,10 @@
 		DD4360D82BBDB440003DBFCF /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4360CF2BBDB440003DBFCF /* Pretendard-Black.otf */; };
 		DD4360D92BBDB440003DBFCF /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4360D02BBDB440003DBFCF /* Pretendard-Light.otf */; };
 		DD4360DA2BBDB440003DBFCF /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD4360D12BBDB440003DBFCF /* Pretendard-Bold.otf */; };
-		DD84B2032BBDB84B00026036 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84B2022BBDB84B00026036 /* Font.swift */; };
-		DD84B2052BBDBDC700026036 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84B2042BBDBDC700026036 /* Color.swift */; };
+		DDB1D2262BD80A480008F1B8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1D2252BD80A480008F1B8 /* Color.swift */; };
 		DDB7D3F12BC131C1005CCF49 /* WelcomeViewController_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7D3F02BC131C1005CCF49 /* WelcomeViewController_ScrollView.swift */; };
 		DDB7D3F32BC13384005CCF49 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7D3F22BC13384005CCF49 /* ScrollViewController.swift */; };
+		DDC3A35F2BD8091F00250C9A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A35D2BD8091F00250C9A /* Font.swift */; };
 		DDCE0FB32BBD8BD5006B3133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE0FB22BBD8BD5006B3133 /* AppDelegate.swift */; };
 		DDCE0FB52BBD8BD5006B3133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE0FB42BBD8BD5006B3133 /* SceneDelegate.swift */; };
 		DDCE0FBC2BBD8BD7006B3133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCE0FBB2BBD8BD7006B3133 /* Assets.xcassets */; };
@@ -55,10 +55,10 @@
 		DD4360CF2BBDB440003DBFCF /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		DD4360D02BBDB440003DBFCF /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
 		DD4360D12BBDB440003DBFCF /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
-		DD84B2022BBDB84B00026036 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		DD84B2042BBDBDC700026036 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DDB1D2252BD80A480008F1B8 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DDB7D3F02BC131C1005CCF49 /* WelcomeViewController_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_ScrollView.swift; sourceTree = "<group>"; };
 		DDB7D3F22BC13384005CCF49 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		DDC3A35D2BD8091F00250C9A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		DDCE0FAF2BBD8BD5006B3133 /* Week1_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCE0FB22BBD8BD5006B3133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDCE0FB42BBD8BD5006B3133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,11 +97,11 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		DD84B2062BBE6D5100026036 /* Common */ = {
+		DDC3A3532BD7B58800250C9A /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				DD84B2022BBDB84B00026036 /* Font.swift */,
-				DD84B2042BBDBDC700026036 /* Color.swift */,
+				DDB1D2252BD80A480008F1B8 /* Color.swift */,
+				DDC3A35D2BD8091F00250C9A /* Font.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				DD4360C82BBDB42E003DBFCF /* Fonts */,
-				DD84B2062BBE6D5100026036 /* Common */,
+				DDC3A3532BD7B58800250C9A /* Common */,
 				DDCE0FB22BBD8BD5006B3133 /* AppDelegate.swift */,
 				DDCE0FB42BBD8BD5006B3133 /* SceneDelegate.swift */,
 				DDCE0FC62BBD8D71006B3133 /* LoginViewController.swift */,
@@ -235,20 +235,20 @@
 			files = (
 				DDCE0FC72BBD8D71006B3133 /* LoginViewController.swift in Sources */,
 				DD0F3C3A2BC1166100DBA3F8 /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				DDC3A35F2BD8091F00250C9A /* Font.swift in Sources */,
 				DDCE0FC92BBD8D89006B3133 /* WelcomeViewController.swift in Sources */,
 				DDB7D3F32BC13384005CCF49 /* ScrollViewController.swift in Sources */,
+				DDB1D2262BD80A480008F1B8 /* Color.swift in Sources */,
 				DD0F3C3E2BC11B8500DBA3F8 /* WelcomeViewController_Closure.swift in Sources */,
 				DD0F3C492BC1289600DBA3F8 /* WelcomeViewController_Snapkit.swift in Sources */,
 				DDB7D3F12BC131C1005CCF49 /* WelcomeViewController_ScrollView.swift in Sources */,
 				DD0F3C3C2BC11B6800DBA3F8 /* LoginViewController_Closure.swift in Sources */,
-				DD84B2032BBDB84B00026036 /* Font.swift in Sources */,
 				DD0F3C422BC1248700DBA3F8 /* WelcomeViewController_AutoLayout.swift in Sources */,
 				DDCE0FB32BBD8BD5006B3133 /* AppDelegate.swift in Sources */,
 				DD0F3C402BC1245F00DBA3F8 /* LoginViewController_AutoLayout.swift in Sources */,
 				DDCE0FB52BBD8BD5006B3133 /* SceneDelegate.swift in Sources */,
 				DD0F3C472BC1287700DBA3F8 /* LoginViewController_Snapkit.swift in Sources */,
 				DD0F3C382BC1164F00DBA3F8 /* LoginViewController_DelegatePattern.swift in Sources */,
-				DD84B2052BBDBDC700026036 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

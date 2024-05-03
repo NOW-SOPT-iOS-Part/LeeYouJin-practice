@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDB1D22E2BD80E960008F1B8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1D22C2BD80E960008F1B8 /* Color.swift */; };
+		DDB1D22F2BD80E960008F1B8 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1D22D2BD80E960008F1B8 /* Font.swift */; };
 		DDED00352BC462B700963734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED00342BC462B700963734 /* AppDelegate.swift */; };
 		DDED00372BC462B700963734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED00362BC462B700963734 /* SceneDelegate.swift */; };
 		DDED003E2BC462B800963734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDED003D2BC462B800963734 /* Assets.xcassets */; };
@@ -21,8 +23,6 @@
 		DDED00592BC4659600963734 /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED004F2BC4659600963734 /* WelcomeViewController_Closure.swift */; };
 		DDED005A2BC4659600963734 /* LoginViewController_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED00502BC4659600963734 /* LoginViewController_AutoLayout.swift */; };
 		DDED005B2BC4659600963734 /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED00512BC4659600963734 /* LoginViewController_Closure.swift */; };
-		DDED00692BC465A400963734 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED005D2BC465A400963734 /* Font.swift */; };
-		DDED006A2BC465A400963734 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED005E2BC465A400963734 /* Color.swift */; };
 		DDED006B2BC465A400963734 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDED00602BC465A400963734 /* Pretendard-Regular.otf */; };
 		DDED006C2BC465A400963734 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDED00612BC465A400963734 /* Pretendard-Black.otf */; };
 		DDED006D2BC465A400963734 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDED00622BC465A400963734 /* Pretendard-Medium.otf */; };
@@ -38,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDB1D22C2BD80E960008F1B8 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DDB1D22D2BD80E960008F1B8 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		DDED00312BC462B700963734 /* Week2_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDED00342BC462B700963734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDED00362BC462B700963734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		DDED004F2BC4659600963734 /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController_Closure.swift; path = ../../Week1_Practice/Week1_Practice/WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
 		DDED00502BC4659600963734 /* LoginViewController_AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController_AutoLayout.swift; path = ../../Week1_Practice/Week1_Practice/LoginViewController_AutoLayout.swift; sourceTree = "<group>"; };
 		DDED00512BC4659600963734 /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController_Closure.swift; path = ../../Week1_Practice/Week1_Practice/LoginViewController_Closure.swift; sourceTree = "<group>"; };
-		DDED005D2BC465A400963734 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		DDED005E2BC465A400963734 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DDED00602BC465A400963734 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		DDED00612BC465A400963734 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		DDED00622BC465A400963734 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDB1D22B2BD80E880008F1B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DDB1D22C2BD80E960008F1B8 /* Color.swift */,
+				DDB1D22D2BD80E960008F1B8 /* Font.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		DDED00282BC462B700963734 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +109,7 @@
 		DDED00332BC462B700963734 /* Week2_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				DDED005C2BC465A400963734 /* Common */,
+				DDB1D22B2BD80E880008F1B8 /* Common */,
 				DDED005F2BC465A400963734 /* Fonts */,
 				DDED00342BC462B700963734 /* AppDelegate.swift */,
 				DDED00362BC462B700963734 /* SceneDelegate.swift */,
@@ -121,16 +130,6 @@
 				DDED004A2BC4659500963734 /* WelcomeViewController_Snapkit.swift */,
 			);
 			path = Week2_Practice;
-			sourceTree = "<group>";
-		};
-		DDED005C2BC465A400963734 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				DDED005D2BC465A400963734 /* Font.swift */,
-				DDED005E2BC465A400963734 /* Color.swift */,
-			);
-			name = Common;
-			path = ../../Week1_Practice/Week1_Practice/Common;
 			sourceTree = "<group>";
 		};
 		DDED005F2BC465A400963734 /* Fonts */ = {
@@ -238,16 +237,16 @@
 				DDED005B2BC4659600963734 /* LoginViewController_Closure.swift in Sources */,
 				DDED007A2BC4674F00963734 /* WelcomeViewController.swift in Sources */,
 				DDED00542BC4659600963734 /* WelcomeViewController_Snapkit.swift in Sources */,
-				DDED00692BC465A400963734 /* Font.swift in Sources */,
 				DDED00792BC4674F00963734 /* LoginViewController.swift in Sources */,
 				DDED00592BC4659600963734 /* WelcomeViewController_Closure.swift in Sources */,
 				DDED00352BC462B700963734 /* AppDelegate.swift in Sources */,
 				DDED00582BC4659600963734 /* LoginViewController_Snapkit.swift in Sources */,
 				DDED005A2BC4659600963734 /* LoginViewController_AutoLayout.swift in Sources */,
-				DDED006A2BC465A400963734 /* Color.swift in Sources */,
+				DDB1D22E2BD80E960008F1B8 /* Color.swift in Sources */,
 				DDED00372BC462B700963734 /* SceneDelegate.swift in Sources */,
 				DDED00562BC4659600963734 /* LoginViewController_DelegatePattern.swift in Sources */,
 				DDED00532BC4659600963734 /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				DDB1D22F2BD80E960008F1B8 /* Font.swift in Sources */,
 				DDED00522BC4659600963734 /* ScrollViewController.swift in Sources */,
 				DDED00572BC4659600963734 /* WelcomeViewController_ScrollView.swift in Sources */,
 				DDED00552BC4659600963734 /* WelcomeViewController_AutoLayout.swift in Sources */,
