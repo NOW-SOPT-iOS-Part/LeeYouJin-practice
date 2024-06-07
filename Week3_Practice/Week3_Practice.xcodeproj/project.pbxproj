@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1C94CF2C01BBC100BDCCC6 /* LoginViewController_DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C94CE2C01BBC100BDCCC6 /* LoginViewController_DI.swift */; };
+		DD1C94D42C01C79E00BDCCC6 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DD1C94D32C01C79E00BDCCC6 /* RxCocoa */; };
+		DD1C94D62C01C79E00BDCCC6 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DD1C94D52C01C79E00BDCCC6 /* RxRelay */; };
+		DD1C94D92C01C7F600BDCCC6 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DD1C94D82C01C7F600BDCCC6 /* Moya */; };
+		DD1C94DB2C01C97400BDCCC6 /* LoginViewController_Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C94DA2C01C97400BDCCC6 /* LoginViewController_Rx.swift */; };
+		DD1C94DD2C01C99C00BDCCC6 /* LoginViewModel_Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C94DC2C01C99C00BDCCC6 /* LoginViewModel_Rx.swift */; };
+		DD1C94DF2C01C9BA00BDCCC6 /* ViewMpodelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C94DE2C01C9BA00BDCCC6 /* ViewMpodelType.swift */; };
+		DD1C94E12C01CA1C00BDCCC6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C94E02C01CA1C00BDCCC6 /* Toast.swift */; };
 		DDB1D2312BD80EEA0008F1B8 /* LoginViewController_CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1D2302BD80EEA0008F1B8 /* LoginViewController_CustomView.swift */; };
 		DDB1D2332BD80F180008F1B8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB1D2322BD80F180008F1B8 /* LoginView.swift */; };
 		DDB1D2372BD8114F0008F1B8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DDB1D2362BD8114F0008F1B8 /* SnapKit */; };
@@ -34,6 +42,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1C94CE2C01BBC100BDCCC6 /* LoginViewController_DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DI.swift; sourceTree = "<group>"; };
+		DD1C94DA2C01C97400BDCCC6 /* LoginViewController_Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Rx.swift; sourceTree = "<group>"; };
+		DD1C94DC2C01C99C00BDCCC6 /* LoginViewModel_Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel_Rx.swift; sourceTree = "<group>"; };
+		DD1C94DE2C01C9BA00BDCCC6 /* ViewMpodelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMpodelType.swift; sourceTree = "<group>"; };
+		DD1C94E02C01CA1C00BDCCC6 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDB1D2302BD80EEA0008F1B8 /* LoginViewController_CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_CustomView.swift; sourceTree = "<group>"; };
 		DDB1D2322BD80F180008F1B8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DDB1D23B2BD813D10008F1B8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1C94D42C01C79E00BDCCC6 /* RxCocoa in Frameworks */,
 				DDB1D2372BD8114F0008F1B8 /* SnapKit in Frameworks */,
+				DD1C94D62C01C79E00BDCCC6 /* RxRelay in Frameworks */,
+				DD1C94D92C01C7F600BDCCC6 /* Moya in Frameworks */,
 				DDB1D23A2BD811590008F1B8 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1C94D02C01C71900BDCCC6 /* Week7 */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C94CE2C01BBC100BDCCC6 /* LoginViewController_DI.swift */,
+				DD1C94DC2C01C99C00BDCCC6 /* LoginViewModel_Rx.swift */,
+				DD1C94DE2C01C9BA00BDCCC6 /* ViewMpodelType.swift */,
+				DD1C94DA2C01C97400BDCCC6 /* LoginViewController_Rx.swift */,
+				DD1C94E02C01CA1C00BDCCC6 /* Toast.swift */,
+			);
+			path = Week7;
+			sourceTree = "<group>";
+		};
 		DDB1D2342BD80F1C0008F1B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +159,7 @@
 				DDB1D2302BD80EEA0008F1B8 /* LoginViewController_CustomView.swift */,
 				DDB1D23B2BD813D10008F1B8 /* ChatViewController.swift */,
 				DDB1D2432BD81CD10008F1B8 /* ItemViewController.swift */,
+				DD1C94D02C01C71900BDCCC6 /* Week7 */,
 			);
 			path = Week3_Practice;
 			sourceTree = "<group>";
@@ -180,6 +209,9 @@
 			packageProductDependencies = (
 				DDB1D2362BD8114F0008F1B8 /* SnapKit */,
 				DDB1D2392BD811590008F1B8 /* Then */,
+				DD1C94D32C01C79E00BDCCC6 /* RxCocoa */,
+				DD1C94D52C01C79E00BDCCC6 /* RxRelay */,
+				DD1C94D82C01C7F600BDCCC6 /* Moya */,
 			);
 			productName = Week3_Practice;
 			productReference = DDC3A3192BD7B42100250C9A /* Week3_Practice.app */;
@@ -212,6 +244,8 @@
 			packageReferences = (
 				DDB1D2352BD8114F0008F1B8 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DDB1D2382BD811590008F1B8 /* XCRemoteSwiftPackageReference "Then" */,
+				DD1C94D22C01C79E00BDCCC6 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DD1C94D72C01C7F600BDCCC6 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = DDC3A31A2BD7B42100250C9A /* Products */;
 			projectDirPath = "";
@@ -248,13 +282,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1C94DB2C01C97400BDCCC6 /* LoginViewController_Rx.swift in Sources */,
+				DD1C94E12C01CA1C00BDCCC6 /* Toast.swift in Sources */,
 				DDB1D2312BD80EEA0008F1B8 /* LoginViewController_CustomView.swift in Sources */,
 				DDC3A31D2BD7B42200250C9A /* AppDelegate.swift in Sources */,
 				DDC3A31F2BD7B42200250C9A /* SceneDelegate.swift in Sources */,
+				DD1C94CF2C01BBC100BDCCC6 /* LoginViewController_DI.swift in Sources */,
 				DDB1D2422BD81B540008F1B8 /* ChatModel.swift in Sources */,
 				DDB1D2482BD81E2E0008F1B8 /* ItemModel.swift in Sources */,
 				DDB1D2332BD80F180008F1B8 /* LoginView.swift in Sources */,
+				DD1C94DD2C01C99C00BDCCC6 /* LoginViewModel_Rx.swift in Sources */,
 				DDB1D2462BD81CE00008F1B8 /* ItemCollectionViewCell.swift in Sources */,
+				DD1C94DF2C01C9BA00BDCCC6 /* ViewMpodelType.swift in Sources */,
 				DDB1D23F2BD814640008F1B8 /* ChatTableViewCell.swift in Sources */,
 				DDB1D23C2BD813D10008F1B8 /* ChatViewController.swift in Sources */,
 				DDC3A3642BD8092D00250C9A /* Font.swift in Sources */,
@@ -473,6 +512,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DD1C94D22C01C79E00BDCCC6 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		DD1C94D72C01C7F600BDCCC6 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 		DDB1D2352BD8114F0008F1B8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -492,6 +547,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD1C94D32C01C79E00BDCCC6 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD1C94D22C01C79E00BDCCC6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		DD1C94D52C01C79E00BDCCC6 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD1C94D22C01C79E00BDCCC6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		DD1C94D82C01C7F600BDCCC6 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD1C94D72C01C7F600BDCCC6 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
 		DDB1D2362BD8114F0008F1B8 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DDB1D2352BD8114F0008F1B8 /* XCRemoteSwiftPackageReference "SnapKit" */;
